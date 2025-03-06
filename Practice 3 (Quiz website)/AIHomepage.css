@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fofofo;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+#mainheading {
+    margin: 0;
+    font-size: 3em;
+    color: #ffeb3b;
+    text-shadow: 2px 2px #ff9800;
+}
+
+#subheading {
+    margin-top: 20px;
+    color: #3f51b5;
+    font-size: 2em;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    /* border: none; */
+    padding: 20px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+}
+
+button#maths {
+    background-color: #f44336;
+}
+
+button#science {
+    background-color: #2196F3;
+}
+
+button#literature {
+    background-color: #9C27B0;
+}
+
+button#history {
+    background-color: #FF9800;
+}
+
+button#g.k {
+    background-color: #009688;
+}
